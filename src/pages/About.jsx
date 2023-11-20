@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className="w-full">
       <Navbar />
-      <div className="w-full bg-white py-10 lg:pt-40 lg:pb-20 px-4 lg:px-0">
+      <div className="w-full bg-white py-32 lg:pt-40 lg:pb-20 px-4 lg:px-0">
         <div className="max-w-7xl mx-auto">
           <div className="w-full flex flex-col lg:flex-row-reverse items-center">
             <div className="w-full lg:w-1/2 space-y-8">
