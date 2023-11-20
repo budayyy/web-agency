@@ -14,7 +14,7 @@ export default function Contact() {
   return (
     <div className="w-full">
       <Navbar />
-      <div className="w-full bg-white py-32 lg:h-screen px-4 lg:px-0">
+      <div className="w-full bg-white py-40 px-4 lg:px-0">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between">
             <div className="text-center lg:text-start space-y-4 mb-8 lg:mb-0">
@@ -32,7 +32,7 @@ export default function Contact() {
               <img src="./img/contact-peta.png" alt="peta" />
             </div>
           </div>
-          <div className="w-full grid grid-cols-1 lg:grid-cols-3 my-20 lg:py-20 gap-16 lg:gap-4 place-items-center place-content-between">
+          <div className="w-full bg-white grid grid-cols-1 lg:grid-cols-3 py-10 lg:py-20 gap-16 lg:gap-4 place-items-center place-content-between">
             <div className="text-start space-y-4 w-full lg:border-r">
               <h3 className="text-lg font-semibold text-black">Follow Us</h3>
               <div className="flex items-center justify-start gap-8">

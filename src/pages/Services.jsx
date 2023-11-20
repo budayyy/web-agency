@@ -12,7 +12,7 @@ export default function Services() {
   return (
     <div className="w-full">
       <Navbar />
-      <div className="w-full h-screen pt-40 bg-gradient-to-br from-sky-200 via-purple-100/50 to-blue-200 px-4 lg:px-0">
+      <div className="w-full h-screen py-40 bg-gradient-to-br from-sky-200 via-purple-100/50 to-blue-200 px-4 lg:px-0">
         <div className="max-w-7xl mx-auto pb-20">
           <div className="max-w-lg mx-auto">
             <div className="flex w-full justify-center items-center mb-8">
@@ -33,7 +33,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="w-full lg:-mt-80 py-20">
+      <div className="w-full lg:-mt-40 2xl:-mt-80 py-20">
         <div className="max-w-7xl mx-auto">
           <div className="w-full lg:rounded-md lg:shadow-md bg-white p-4 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16">
             <div className="w-full flex gap-4 lg:gap-12 items-center">
