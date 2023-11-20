@@ -77,7 +77,7 @@ export default function Navbar() {
               Home
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/about"
               className={({ isActive }) =>
                 isActive ? activeMobileNavlink : mobileNavlink
               }
@@ -85,7 +85,7 @@ export default function Navbar() {
               About Us
             </NavLink>
             <NavLink
-              to="/service"
+              to="/services"
               className={({ isActive }) =>
                 isActive ? activeMobileNavlink : mobileNavlink
               }

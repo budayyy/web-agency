@@ -28,16 +28,16 @@ export default function Homepage() {
               projects. We build and develop mobile applications for several top
               platforms, including Android & IOS.
             </p>
-            <div className="space-x-4">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-4 px-12 lg:px-0">
               <Link
                 to="/contact"
-                className="py-3 px-12 bg-sky-500 rounded-md text-white text-sm font-normal"
+                className="py-3 px-12 w-full lg:w-auto bg-sky-500 rounded-md text-white text-sm font-normal text-center"
               >
                 Contact Us
               </Link>
               <Link
                 to="#"
-                className="py-3 px-12  bg-white border border-sky-500 text-sky-500 rounded-md font-normal text-sm"
+                className="py-3 px-12 w-full lg:w-auto bg-white border border-sky-500 text-sky-500 rounded-md font-normal text-sm text-center"
               >
                 View more
               </Link>
